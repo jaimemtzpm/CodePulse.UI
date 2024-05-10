@@ -1,4 +1,6 @@
-export interface AddBlogPost {
+import { Category } from "../../category/models/category.model";
+
+export interface UpdateBlogPost {    
     title: string;
     shortDescription: string;
     content: string;
